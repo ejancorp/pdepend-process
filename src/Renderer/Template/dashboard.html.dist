@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title>...</title>
+  <title>pDepend Summary</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/nv.d3.css" rel="stylesheet">
@@ -14,6 +14,15 @@
  </head>
  <body>
   <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+         <h2>Charts</h2>
+     </div>
+    <div class="col-md-12">
+       <a href='jdepend.svg'><img src="jdepend.svg" type="image/svg+xml" /></a>
+       <a href='pyramid.svg'><img src="pyramid.svg" type="image/svg+xml" /></a>
+    </div>
+   </div>
    <div class="row">
     <div class="col-md-12">
      <h2>Classes</h2>
