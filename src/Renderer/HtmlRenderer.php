@@ -207,7 +207,11 @@ class HtmlRenderer implements RendererInterface
         $width         = floor(max($data) / $numPartitions);
 
         foreach ($data as $value) {
-            $key = floor($value / $width) * $width;
+            $div = 0;
+            if(floatval($value) != 0 && floatval($width) != 0) {
+              $div = floor($value / $width);
+            }
+            $key = $div * $width;
             $key = $key . '-' . ($key + $width);
 
             if (!isset($partitions[$key])) {
