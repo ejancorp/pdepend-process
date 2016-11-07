@@ -20,6 +20,8 @@
      </div>
     <div class="col-md-12">
        <a href='jdepend.svg'><img src="jdepend.svg" type="image/svg+xml" /></a>
+    </div>
+    <div class="col-md-12">
        <a href='pyramid.svg'><img src="pyramid.svg" type="image/svg+xml" /></a>
     </div>
    </div>
